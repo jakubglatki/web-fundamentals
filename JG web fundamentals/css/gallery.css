@@ -1,0 +1,146 @@
+nav{
+  height: 100px;
+}
+
+img{
+    display: center;
+ width: 50%;
+height: 50%;
+}
+
+
+
+h3{
+  color: #9b2001d8;
+}
+
+h4{
+  padding: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+  
+
+  .a{
+    text-decoration: none;
+    color: #c52f0ad8;
+  }
+  .a:hover{
+    color: #ff3b0ad8;
+}
+
+.container {
+    position: relative;
+  }
+
+.overlay {
+    position: absolute;
+    float: center;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff3b0ad8;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  h1{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+      'left middle right' 
+      'left middle right' 
+      'left middle right' ;
+     
+     grid-column-gap: 10px;
+     justify-content: space-around; 
+     grid-auto-rows: initial;
+     grid-gap: 1rem;
+     margin-top: 60px;
+  } 
+  
+ 
+
+  .grid-item {
+    text-align: center;
+    align-self: center;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+
+
+  .buttonSize{
+    background-color: #c52f0ad8;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 16px 20px;
+    text-decoration: none;
+    border:none;
+    cursor: pointer;
+    float: right;
+  }
+
+  
+.buttonSize:hover {
+  background-color: #ff3b0ad8;
+}
+
+.buttonSize a{
+  color:white;
+}
+
+.buttonSort{
+  background-color: #c52f0ad8;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 16px 20px;
+  text-decoration: none;
+  border:none;
+  cursor: pointer;
+  float: left;
+}
+
+.buttonSort:active{
+  background-color: #ff3b0ad8;
+
+}
+
+.buttonSort:hover{
+  background-color: #ff3b0ad8;
+
+}
+
+#button6{
+float:right;
+visibility: hidden;
+}
+
+#button7{
+float:right;
+}

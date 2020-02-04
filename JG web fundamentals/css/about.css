@@ -1,0 +1,30 @@
+   
+
+    .films_list{
+        color: rgb(245, 101, 4);
+        padding: 10px 20px;
+    }
+
+   
+    
+    section{
+    margin-left: 40%;
+    margin-right: 40%;
+    }
+
+    h3{
+    color: rgb(77, 23, 2);
+    }
+
+    .footer{
+        margin-top:50px;
+    }
+
+    .footer h4{
+        color: black;
+        margin: 0;
+    }
+    .footer h3{
+        color: #6b2200;
+        margin: 0;
+    }

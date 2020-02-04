@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <link href="css/menu.css" rel="stylesheet">
+  <link href="css/gallery.css" rel="stylesheet">
+
+
+  <script src="js/gallery.js"></script>
+
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="menu">
+      <ul>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        
+
+      </ul>
+    </div>
+
+
+  </header>
+
+<nav>
+  <h3>Movies with:</h3>
+  <div>
+    <a onclick="shrinkImages()"class="buttonSize">Shrink images</a></button>
+  <a onclick="extendImages()" class="buttonSize">Extend images</a></button>
+  </div>
+
+  <div>
+    <a onclick="umaMovies()" class="buttonSort" id="button1">Uma Thurman</a>
+    <a onclick="samuelMovies()" class="buttonSort" id="button2">Samuel L. Jackson</a>
+    <a onclick="christophMovies()" class="buttonSort" id="button3">Christoph Waltz</a>
+    <a onclick="bradMovies()" class="buttonSort" id="button4">Brad Pitt</a>
+    <a onclick="leoMovies()" class="buttonSort" id="button5">Leonardo DiCaprio</a>
+    <a onclick="scoreIMBD()" class="buttonSort" id="button7">Sort by IMBD score</a>
+    <a onclick="chronological()" class="buttonSort" id="button6" >Sort chronologically</a>
+  </div>
+  </nav>
+      
+  <div class="grid-container">
+    <div class="grid-item" id="div1">
+      <div class="container">
+        <img src="Data/dogs.jpg" alt="Reservoir Dogs" id="image1">
+        <div class="overlay">
+          <h1>Reservoir Dogs</h1>
+        </div>
+      </div>
+      <h3>IMBD rating: 8.3</h3>
+      <h4> When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is
+        a police informant.</h4>
+
+      <h5>
+        Source: <a href="https://www.imdb.com/title/tt0105236/?ref_=nm_flmg_wr_27" class="a">IMBD</a>
+      </h5>
+    </div>
+
+    <div class="grid-item" id="div2">
+      <div class="container">
+        <img src="Data/pulp.jpg" alt="Pulp Fiction" id="image2">
+        <div class="overlay">
+          <h1>Pulp Fiction</h1>
+        </div>
+      </div>
+      <h3>IMBD rating: 8.9</h3>
+      <h4> The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four
+        tales of violence and redemption.</h4>
+      <h5>
+        Source: <a href="https://www.imdb.com/title/tt0110912/?ref_=nm_flmg_wr_24" class="a">IMBD</a>
+      </h5>
+    </div>
+
+    <div class="grid-item" id="div3">
+      <div class="container">
+        <img src="Data/jackie.jpg" alt="Jackie Brown" id="image3">
+        <div class="overlay">
+          <h1>Jackie Brown</h1>
+        </div>
+      </div>
+      <h3>IMBD rating: 7.5</h3>
+      <h4>A middle-aged woman finds herself in the middle of a huge conflict that will either make her a profit or cost
+        her life.</h4>
+      <h5>
+        Source: <a href="https://www.imdb.com/title/tt0119396/?ref_=nm_flmg_wr_18" class="a">IMBD</a>
+      </h5>
+    </div>
+
+
+
+    <div class="grid-item" id="div4">
+      <div class="container">
+        <img src="Data/kill1.jpg" alt="Kill Bill: Vol 1." id="image4">
+        <div class="overlay">
+          <h1>Kill Bill: Vol 1</h1>
+        </div>
+      </div>
+      <h3>IMBD rating: 8.1</h3>
+      <h4> After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who
+        betrayed her.</h4>
+      <h5>
+        Source: <a href="https://www.imdb.com/title/tt0266697/?ref_=nm_flmg_wr_16" class="a">IMBD</a>
+      </h5>
+    </div>
+
+
+
+    <div class="grid-item" id="div5">
+      <div class="container">
+        <img src="Data/kill2.jpg" alt="Kill Bill: Vol 2." id="image5">
+        <div class="overlay">
+          <h1>Kill Bill: Vol 2</h1>
+        </div>
+      </div>
+      <h3>IMBD rating: 8.0</h3>
+      <h4>The Bride continues her quest of vengeance against her former boss and lover Bill, the reclusive bouncer Budd,
+        and the treacherous, one-eyed Elle.</h4>
+      <h5>
+        Source: <a href="https://www.imdb.com/title/tt0378194/?ref_=nm_flmg_wr_15" class="a">IMBD</a>
+      </h5>
+    </div>
+
+    <div class="grid-item" id="div6">
+      <div class="container">
+        <img src="Data/basterds.jpg" alt="Inglourious Basterds" id="image6">
+        <div class="overlay">
+          <h1>Inglourious Basterds</h1>
+        </div>
+      </div>
+      <h3>IMBD rating: 8.3</h3>
+      <h4> In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S.
+        soldiers coincides with a theatre owner's vengeful plans for the same.</h4>
+      <h5>
+        Source: <a href="https://www.imdb.com/title/tt0361748/?ref_=nm_flmg_wr_10" class="a">IMBD</a>
+      </h5>
+    </div>
+
+
+
+    <div class="grid-item" id="div7">
+      <div class="container">
+        <img src="Data/django.jpg" alt="Django Unchained" id="image7">
+        <div class="overlay">
+          <h1>Django Unchained</h1>
+        </div>
+      </div>
+      <h3>IMBD rating: 8.4</h3>
+      <h4>With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi
+        plantation owner.</h4>
+      <h5>
+        Source: <a href="https://www.imdb.com/title/tt1853728/?ref_=nm_flmg_wr_8" class="a">IMBD</a>
+      </h5>
+    </div>
+
+    <div class="grid-item" id="div8">
+      <div class="container">
+        <img src="Data/eight.jpg" alt="The Hateful Eight" id="image8">
+        <div class="overlay">
+          <h1>The Hateful Eight</h1>
+        </div>
+      </div>
+      <h3>IMBD rating: 7.8</h3>
+      <h4>In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited
+        by a collection of nefarious characters.</h4>
+      <h5>
+        Source: <a href="https://www.imdb.com/title/tt3460252/?ref_=nm_flmg_wr_6" class="a">IMBD</a>
+      </h5>
+    </div>
+
+    <div class="grid-item" id="div9">
+      <div class="container">
+        <img src="Data/once.jpg" alt="Once Upon a Time... in Hollywood" id="image9">
+        <div class="overlay">
+          <h1>Once Upon a Time... in Hollywood</h1>
+        </div>
+      </div>
+      <h3>IMBD rating: 7.8</h3>
+      <h4> A faded television actor and his stunt double strive to achieve fame and success in the film industry during
+        the final years of Hollywood's Golden Age in 1969 Los Angeles.</h4>
+      <h5>
+        Source: <a href="https://www.imdb.com/title/tt7131622/?ref_=nm_flmg_wr_4" class="a">IMBD</a>
+      </h5>
+    </div>
+  </div>
+
+</body>
+
+</html>
